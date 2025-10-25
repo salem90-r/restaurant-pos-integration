@@ -1,58 +1,58 @@
-# 🍽 نظام إدارة طلبات المطعم + الربط مع نظام الأمين المحاسبي
+# 🍽 Restaurant Order Management System + Al-Ameen Accounting Integration
 
-نظام شامل لإدارة الطلبات داخل المطاعم، يتيح للموظفين والعملاء متابعة الطلبات لحظيًا، مع ربط مباشر بالنظام المحاسبي لتلقي الطلبات بعد إصدار الفواتير تلقائيًا، وتقديم تقارير مرنة لإدارة الأداء.
-
----
-
-## 🎯 الهدف
-- متابعة الطلبات من لحظة استلامها حتى التسليم للعميل.
-- تحديث حالة الطلبات (جاهز / تم التسليم) بشكل لحظي.
-- عرض شاشة للعميل تعرض أرقام الطلبات الجاهزة.
-- جلب الطلبات أوتوماتيكياً من النظام المحاسبي.
-- توفير تقارير مرنة للمدير لمعرفة مدة تجهيز كل طلب وتحليل الأداء.
+A comprehensive system for managing restaurant orders, allowing staff and customers to track orders in real-time. Directly integrated with the accounting system to automatically process invoices and provide flexible performance reports.
 
 ---
 
-## 👤 الأدوار الرئيسية
-
-### المطبخ / الكاشير
-- متابعة الطلبات الجديدة.
-- تحديث حالة الطلب: جاهز أو تم التسليم.
-- إصدار الفواتير مباشرة عبر الربط بالنظام المحاسبي.
-- عرض تقارير الطلبات اليومية ومدة تجهيز كل طلب.
-
-### العميل / شاشة الطلبات
-- عرض أرقام الطلبات الجاهزة ومتابعة الحالة بشكل مباشر.
-
-### الإدارة / المدير
-- الوصول لتقارير أداء الطلبات مثل متوسط وقت تجهيز الطلبات.
+## 🎯 Objective
+- Track orders from receipt to delivery.
+- Update order status (Ready / Delivered) in real-time.
+- Display a customer screen showing ready order numbers.
+- Automatically fetch orders from the accounting system.
+- Provide flexible reports for managers to monitor preparation times and performance.
 
 ---
 
-## 🖼 صور المشروع
+## 👤 Main Roles
 
-![واجهة الطلبات](./images/order-screen.png)  
-*واجهة عرض الطلبات للموظفين.*
+### Kitchen / Cashier
+- Monitor new orders.
+- Update order status: Ready or Delivered.
+- Issue invoices directly via accounting system integration.
+- View daily order reports and preparation times.
 
-![تقرير الأداء](./images/report-screen.png)  
-*تقرير أداء الطلبات للإدارة.*
+### Customer / Order Screen
+- View ready order numbers and track status in real-time.
 
-![شاشة العميل](./images/client-screen.png)  
-*شاشة متابعة الطلبات للعميل.*
+### Management / Admin
+- Access performance reports, such as average order preparation times.
 
 ---
 
-## 🔧 التقنيات المستخدمة
+## 🖼 Project Screenshots
+
+![Order Screen](./images/order-screen.png)  
+*Order interface for staff.*
+
+![Performance Report](./images/report-screen.png)  
+*Performance report for management.*
+
+![Customer Screen](./images/client-screen.png)  
+*Order tracking screen for customers.*
+
+---
+
+## 🔧 Technologies Used
 - **Back-End:** Laravel, RESTful APIs  
-- **Integration:** ربط مع نظام الأمين المحاسبي (Accounting Integration)  
+- **Integration:** Al-Ameen Accounting System  
 - **Subscription / User Management**  
 - **Version Control:** Git & GitHub  
-- **Hosting:** أي سيرفر ويب داعم للـ PHP & MySQL
+- **Hosting:** Any PHP & MySQL supported web server
 
 ---
 
-## 🚀 المميزات
-- متابعة الطلبات لحظياً.
-- إصدار فواتير آلي عبر الربط المحاسبي.
-- تقارير مرنة للإدارة.
-- شاشة مباشرة للعميل لمتابعة الطلبات.
+## 🚀 Features
+- Real-time order tracking.
+- Automated invoicing via accounting integration.
+- Flexible reports for management.
+- Customer-facing order tracking screen.
